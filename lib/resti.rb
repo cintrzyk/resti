@@ -1,5 +1,4 @@
-class Resti
-  def self.hi
-    puts 'Hello world from resti!'
-  end
+module Resti
 end
+
+require_relative 'resti/version'
