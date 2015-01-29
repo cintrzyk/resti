@@ -1,0 +1,8 @@
+Description:
+    Runs paypal-sdk:install generator
+
+Example:
+    rails generate resti:install
+
+    This will run:
+        rails g paypal-sdk:install
