@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
   s.require_paths = %w(lib)
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency('paypal-sdk-rest', '~> 0.10')
+  s.add_dependency 'paypal-sdk-rest', '~> 0.10'
+  s.add_dependency 'rails', '~> 4.1.9'
 
   s.add_development_dependency 'bundler', '~> 1.6'
   s.add_development_dependency 'rake', '~> 10.0'
