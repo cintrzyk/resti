@@ -1,0 +1,2 @@
+class RestiController < ApplicationController
+end
