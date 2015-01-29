@@ -18,7 +18,7 @@ module Resti
 
       def create_resti_model
         create_resti_model_migration
-        invoke 'active_record:model', [name], migration: false #if invoke_behavior?
+        invoke 'active_record:model', [name], migration: false
       end
 
       def create_resti_model_migration
